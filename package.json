@@ -1,0 +1,15 @@
+{
+  "name": "chrome-to-claude-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:bridge": "bun run --cwd packages/bridge dev",
+    "dev:extension": "bun run --cwd packages/extension dev",
+    "build:bridge": "bun run --cwd packages/bridge build",
+    "build:extension": "bun run --cwd packages/extension build",
+    "build": "bun run build:bridge && bun run build:extension"
+  }
+}

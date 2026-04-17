@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["chrome"],
+    "baseUrl": ".",
+    "paths": {
+      "@chrome-to-claude/shared": ["../shared/protocol.ts"],
+      "@ui/*": ["src/ui/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "manifest.config.ts", "vite.config.ts", "tailwind.config.ts"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@chrome-to-claude/shared",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./protocol.ts",
+  "types": "./protocol.ts",
+  "exports": {
+    ".": "./protocol.ts"
+  }
+}

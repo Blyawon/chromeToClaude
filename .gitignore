@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+*.log
+/tmp
+
+# Editor / OS
+.vscode
+.idea
+*.swp
+*.swo
+Thumbs.db
+
+# Local daemon state (never commit tokens)
+/.chrome-to-claude/

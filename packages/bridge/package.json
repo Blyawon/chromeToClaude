@@ -1,0 +1,26 @@
+{
+  "name": "chrome-to-claude",
+  "version": "0.1.0",
+  "description": "Chrome element picker → MCP bridge for Claude",
+  "type": "module",
+  "bin": {
+    "chrome-to-claude": "./bin/chrome-to-claude.mjs"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts start",
+    "start": "tsx src/cli.ts start",
+    "mcp": "tsx src/mcp-stdio.ts",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "better-sqlite3": "^11.3.0",
+    "@chrome-to-claude/shared": "*"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
