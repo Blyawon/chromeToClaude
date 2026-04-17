@@ -46,8 +46,8 @@ Requires Node ≥ 18.
 
 ```bash
 # 1. Install and start the bridge
-git clone https://github.com/Blyawon/claudeToChrome
-cd claudeToChrome
+git clone https://github.com/Blyawon/chromeToClaude
+cd chromeToClaude
 npm install
 npx chrome-to-claude start
 

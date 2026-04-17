@@ -29,8 +29,8 @@ edit some styles, queue a batch, and hand the result to Claude.
 ## Installation
 
 ```bash
-git clone https://github.com/Blyawon/claudeToChrome
-cd claudeToChrome
+git clone https://github.com/Blyawon/chromeToClaude
+cd chromeToClaude
 npm install
 ```
 
